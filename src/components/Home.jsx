@@ -8,6 +8,7 @@ import veg2 from '../assets/vegs (1).png';
 import veg3 from '../assets/vegs (2).png';
 import veg4 from '../assets/vegs (3).png';
 import fullImg from '../assets/fullImg.png';
+import QR from '../assets/QR.png';
 const Home = () => {
   const images = [
     'https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D',
@@ -75,12 +76,12 @@ const Home = () => {
           className="w-full sm:w-[306px] sm:h-[302px] md:w-[250px] md:h-[250px] lg:w-[306px] lg:h-[302px] object-cover rounded-lg mx-auto"
         />
         <img
-          src={cup2}
+          src={cup1}
           alt="Image 2"
           className="w-full sm:w-[249px] sm:h-[307px] md:w-[210px] md:h-[250px] lg:w-[249px] lg:h-[307px] object-cover rounded-lg mx-auto"
         />
         <img
-          src={cup3}
+          src={cup1}
           alt="Image 3"
           className="w-full sm:w-[252px] sm:h-[311px] md:w-[210px] md:h-[260px] lg:w-[252px] lg:h-[311px] object-cover rounded-lg mx-auto"
         />
@@ -129,8 +130,68 @@ const Home = () => {
           alt="carousel"
           className="w-full h-full object-contain"
         />
-       
+
       </div>
+
+
+      <div className="flex items-center justify-center  mt-32 px-4">
+        <div className="w-full max-w-[1240px] bg-[#D3AA42] rounded-[20px] p-4">
+          <div className="flex flex-col lg:flex-row items-center justify-between w-full h-full space-y-4 lg:space-y-0 lg:space-x-4">
+
+            <div className="flex-1 text-white font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[32px] mb-4 lg:mb-0">
+              Experience the Purity <br /> of A2 Milk – Try a Sample!
+            </div>
+
+            {/* Second div - Input and Button */}
+            <div className="flex items-center border-r-2 border-white pr-4 mb-4 lg:mb-0 w-full lg:w-auto">
+              <input
+                type="text"
+                placeholder="Enter Mobile Number"
+                className="p-2 rounded-l-md border-2 border-white mr-2 w-full lg:w-[200px]"
+              />
+              <button className="bg-white text-[#D3AA42] py-2 px-4 rounded-r-md w-full lg:w-auto">
+                Send
+              </button>
+            </div>
+
+            {/* Third div - Image */}
+            <div className="flex-shrink-0 w-full lg:w-auto text-center">
+              <img
+                src={QR}
+                alt="A2 Milk"
+                className="w-[124px] h-[125px] object-cover mx-auto"
+              />
+              <div className="text-white mt-2">scan QR code</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="text-center py-6 px-4 pt-32">
+        <h1
+          style={{
+            color: "#D3AA42",
+            fontFamily: "Poppins, sans-serif",
+            fontWeight: "600",
+            fontSize: "2rem",
+          }}
+          className="text-2xl sm:text-3xl lg:text-4xl"
+        >
+          Customer Reviews:{" "}
+          <span
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "300",
+              fontSize: "32px",
+              color: "#000000"
+            }}
+          >
+            Real Experiences, Real Trust
+          </span>
+        </h1>
+      </div>
+
+
 
     </>
   );
