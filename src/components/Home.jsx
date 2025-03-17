@@ -10,9 +10,9 @@ import veg4 from '../assets/vegs (3).png';
 import fullImg from '../assets/fullImg.png';
 const Home = () => {
   const images = [
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s',
-    'https://media.istockphoto.com/id/1993983703/photo/themis-statue-of-justice-law-legal-system-justice-crime-concept-3d-render.webp?a=1&b=1&s=612x612&w=0&k=20&c=uzwqbRIyG6thqiidNQiUz10p0PuQ-l6iSbv9unU01tA='
+    'https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D',
+    'https://htmlcolorcodes.com/assets/images/colors/green-color-solid-background-1920x1080.png',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD05mli_sg6zJMajt-IM3sTmOZcASj9avcdg&s'
   ];
 
   const images2 = [
