@@ -218,7 +218,7 @@ const Home = () => {
           className="absolute top-3 left-3 w-[35.65px] h-[26.61px]" 
         />
         <p className="text-sm sm:text-base mb-4 font-bold">
-          "Division of Labor’s creative ideas were great, and working with their team was truly easy they were very responsive.""
+          "Division of Labor’s creative ideas were great, and working with their team was truly easy they were very responsive."
         </p>
         <div className="absolute bottom-2 right-12">
           <p className="font-bold">Mila McSabbu</p>
@@ -234,7 +234,7 @@ const Home = () => {
           className="absolute top-3 left-3 w-[35.65px] h-[26.61px]" 
         />
         <p className="text-sm sm:text-base mb-4 font-bold">
-          "We were blown away when we saw Mixland. The combination of social, email, knowledge base, mobile, ets.""
+          "We were blown away when we saw Mixland. The combination of social, email, knowledge base, mobile, ets."
         </p>
         <div className="absolute bottom-2 right-12">
           <p className="font-bold">Robert Fox</p>
