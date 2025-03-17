@@ -9,7 +9,7 @@ import veg3 from '../assets/vegs (2).png';
 import veg4 from '../assets/vegs (3).png';
 import fullImg from '../assets/fullImg.png';
 import QR from '../assets/QR.png';
-import vector from '../assets/vector.png';
+import vector from '../assets/Vector.png';
 const Home = () => {
   const images = [
     'https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D',
