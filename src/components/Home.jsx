@@ -195,48 +195,48 @@ const Home = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
       {/* Box 1 */}
-      <div className="relative bg-[#D3AA4229] p-12 rounded-lg shadow-lg">
+      <div className="relative bg-[#D3AA4229] p-16 rounded-lg shadow-lg">
         <img 
           src={vector} 
           alt="icon" 
-          className="absolute top-3 left-3 w-[35.65px] h-[26.61px]" 
+          className="absolute top-5 left-6 w-[35.65px] h-[26.61px]" 
         />
         <p className="text-sm sm:text-base mb-4 font-bold">
           "They are able to help a startup like mine scale and are very responsive to all of our unique needs."
         </p>
-        <div className="absolute bottom-2 right-12">
+        <div className="absolute bottom-4 right-12">
           <p className="font-bold">Joew Harbert</p>
           <p >CEO, NoonBrew</p>
         </div>
       </div>
 
       {/* Box 2 */}
-      <div className="relative bg-[#D3AA4229] p-12 rounded-lg shadow-lg">
+      <div className="relative bg-[#D3AA4229] p-16 rounded-lg shadow-lg">
         <img 
           src={vector} 
           alt="icon" 
-          className="absolute top-3 left-3 w-[35.65px] h-[26.61px]" 
+          className="absolute top-5 left-6 w-[35.65px] h-[26.61px]" 
         />
         <p className="text-sm sm:text-base mb-4 font-bold">
           "Division of Labor’s creative ideas were great, and working with their team was truly easy they were very responsive."
         </p>
-        <div className="absolute bottom-2 right-12">
+        <div className="absolute bottom-4 right-12">
           <p className="font-bold">Mila McSabbu</p>
           <p >Marketing & Office Coordinator</p>
         </div>
       </div>
 
       {/* Box 3 */}
-      <div className="relative bg-[#D3AA4229] p-12 rounded-lg shadow-lg">
+      <div className="relative bg-[#D3AA4229] p-16 rounded-lg shadow-lg">
         <img 
           src={vector} 
           alt="icon" 
-          className="absolute top-3 left-3 w-[35.65px] h-[26.61px]" 
+          className="absolute top-5 left-6 w-[35.65px] h-[26.61px]" 
         />
         <p className="text-sm sm:text-base mb-4 font-bold">
           "We were blown away when we saw Mixland. The combination of social, email, knowledge base, mobile, ets."
         </p>
-        <div className="absolute bottom-2 right-12">
+        <div className="absolute bottom-4 right-12">
           <p className="font-bold">Robert Fox</p>
           <p >Owner, Beards of Brothers</p>
         </div>
