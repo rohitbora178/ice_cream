@@ -16,10 +16,10 @@ const Home = () => {
   ];
 
   const images2 = [
-    { src: veg1, name: 'Image 1' },
-    { src: veg2, name: 'Image 2' },
-    { src: veg3, name: 'Image 3' },
-    { src: veg4, name: 'Image 4' },
+    { src: veg1, name: 'Milk & Milk Products' },
+    { src: veg2, name: 'Fruits & vegetables' },
+    { src: veg3, name: 'Pulses & grains' },
+    { src: veg4, name: 'Spices' },
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
